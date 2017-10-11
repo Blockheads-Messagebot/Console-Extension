@@ -32,7 +32,7 @@ MessageBot.registerExtension('console', function(ex, world) {
         if (input.value.startsWith('/')) {
             consoleExports.log(input.value)
         }
-        world.send(input.value)
+        ex.bot.send(input.value)
         input.value = ''
     }
     input.addEventListener('keyup', event => {
