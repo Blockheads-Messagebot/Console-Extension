@@ -29,9 +29,6 @@ MessageBot.registerExtension('console', function(ex, world) {
     // Handle sending
     let input = tab.querySelector('input') as HTMLInputElement
     function userSend() {
-        if (input.value.startsWith('/')) {
-            consoleExports.log(input.value)
-        }
         ex.bot.send(input.value)
         input.value = ''
     }
