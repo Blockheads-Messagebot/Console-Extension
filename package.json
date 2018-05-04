@@ -5,13 +5,13 @@
   "author": "Bibliofile <Bibliofilegit@gmail.com>",
   "license": "GPL-3.0+",
   "devDependencies": {
-    "@bhmb/bot": "^7.0.0-a8",
-    "@bhmb/ui": "^1.0.0-a10",
-    "rollup": "^0.50.0",
+    "@bhmb/bot": "^7.0.11",
+    "@bhmb/ui": "^1.0.8",
+    "rollup": "^0.58.2",
     "rollup-plugin-string": "^2.0.2",
-    "rollup-plugin-typescript2": "^0.7.0",
-    "tslint": "^5.7.0",
-    "typescript": "^2.5.3"
+    "rollup-plugin-typescript2": "^0.13.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
   },
   "scripts": {
     "build": "rollup --config",

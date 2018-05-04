@@ -1,6 +1,6 @@
 import { MessageBot, Player } from '@bhmb/bot'
 import { UIExtensionExports } from '@bhmb/ui'
-import History from './history'
+import { history } from './history'
 
 export interface ConsoleExtensionExports {
     log(message: string): void
@@ -39,7 +39,7 @@ MessageBot.registerExtension('console', function(ex, world) {
     })
 
     // History module, used to be a separate extension
-    History(input);
+    history(input);
 
     (tab.querySelector('button') as HTMLButtonElement).addEventListener('click', userSend)
 

@@ -1,4 +1,4 @@
-export default function history(input: HTMLInputElement) {
+export function history(input: HTMLInputElement) {
     let history: string[] = []
     let current = 0
 
